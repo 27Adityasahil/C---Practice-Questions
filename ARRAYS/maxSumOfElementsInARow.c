@@ -32,5 +32,5 @@ int main(){
             row = i;
         }
     }
-    printf("%d is the row with maximum sum value and the sum is %d.", row, maxSum);
+    printf("%d is the row index with maximum sum value and the sum is %d.", row, maxSum);
 }
