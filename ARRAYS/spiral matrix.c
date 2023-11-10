@@ -21,7 +21,7 @@ int main()
     }
 
     printf("\n");
-    // refer to the image in the repository for the following: -
+    // refer to the image "spiral matrix.png" in the repository for the better understanding of the following: -
 
     /*
         1  2  3  4  |
