@@ -16,6 +16,7 @@ int main(){
             scanf("%d", &arr[i][j]);
         }
     }
+//printf("The original matrix is:: \n");
 
     for(int i = 0; i < n; i++){
         for(int j = 0; j < n; j++){ // loop for printing the original array for referrence
@@ -31,6 +32,8 @@ int main(){
             arr[j][i] = temp;
         }
     }
+
+//printf("The transpose matrix is:: \n");
 
     for(int i = 0; i < n; i++){
         for(int j = 0; j < n; j++){ // printing the transposed array stored in the same matrix
